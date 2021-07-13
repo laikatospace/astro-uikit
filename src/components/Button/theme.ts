@@ -79,9 +79,15 @@ export const light: ButtonTheme = {
 export const dark: ButtonTheme = {
   [PRIMARY]: {
     ...light.primary,
+    background: darkColors.primary,
+    backgroundActive: darkColors.primaryDark,
+    backgroundHover: darkColors.primaryBright,
   },
   [SECONDARY]: {
     ...light.secondary,
+    background: darkColors.secondary,
+    backgroundActive: darkColors.secondaryDark,
+    backgroundHover: darkColors.secondaryBright,
   },
   [TERTIARY]: {
     ...light.tertiary,
